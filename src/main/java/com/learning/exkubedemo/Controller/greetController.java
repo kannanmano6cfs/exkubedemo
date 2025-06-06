@@ -8,6 +8,6 @@ public class greetController {
 
     @GetMapping("/")
     public String greet() {
-        return "Hello World!! This is from container in pods of K8s Cluster";
+        return "Hello World!! This is from Web App Service!!";
     }
 }
