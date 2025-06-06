@@ -8,6 +8,6 @@ public class greetController {
 
     @GetMapping("/")
     public String greet() {
-        return "Hello World!! This is from Web App Service!!";
+        return "Hello World!! This is from Azure Web App Service created for FSSTech!!";
     }
 }
